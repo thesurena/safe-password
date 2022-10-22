@@ -1,7 +1,7 @@
 import string,random
 
 #Get a number from the user to generate a random password
-length = int(input('Enter your number to create a strong password: '))
+number = int(input('Enter your number to create a strong password: '))
 
 while True:
     #Generate a random password
