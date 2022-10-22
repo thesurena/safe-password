@@ -6,7 +6,7 @@ number = int(input('Enter your number to create a strong password: '))
 while True:
     #Generate a random password
     chars = string.ascii_letters + string.digits + '!@#$%&()_/'
-    password = ''.join(random.choice(chars) for itemes in range(length))
+    password = ''.join(random.choice(chars) for itemes in range(number))
 
     #Show a random password to the user
     print(f'your safe password: {password}')
